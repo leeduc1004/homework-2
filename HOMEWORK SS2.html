@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HOMEWORK2</h2>
+</body>
+<script>
+    //BÀI 1
+    // //1 - VAR khai báo biến có thể truy cập  ở phạm vi hàm số  hoặc bên ngoài hàm số, toàn cục
+    
+    //     - CONST được sử dụng để khai báo 1 hằng số, và giá trị của nó không thay đổi trong suốt chương trình
+    
+    // //2 :
+    // - BIẾN LET  ĐƯỢC KHAI BÁO SẼ CÓ SCOPE LÀ BLOCK SCOPED CHỨ KHÔNG PHẢI GLOBALLY HAY LOCALLY SCOPED NHƯ BIẾN VAR
+    // //3 :
+    // - LET CHO CHÚNG TA CẬP NHẬP GIÁ TRỊ CỦA BIẾN
+    // - CONST KHÔNG THỂ TÁI KHAI BÁO BIẾN HAY CẬP NHẬP GIÁ TRỊ MỚI CHO BIẾN
+    // //4 :
+    // - DÙNG LET KHI TA MUỐN THAY ĐỔI GIÁ TRỊ CỦA BIẾN TRONG QUÁ TRÌNH CODE 
+    // - DÙNG CONST KHI TA KHÔNG MUỐN THAY ĐỔI GIÁ TRỊ CỦA BIẾN TRONG QUÁ TRÌNH CODE
+    // - DÙNG VAR KHI
+     
+    // //BÀI 2:
+    // - BOOLEAN LÀ MỘT ĐỐI TƯỢNG ĐẠI DIỆN CHO GIÁ TRỊ TRONG 2 TRẠNG THÁI : TRUE HOẶC FALSE
+    // -TRUE OR FALSE
+    
+    //BÀI 3
+    //A:
+    //  for(i = 0; i < 8; i++) {
+    //      console.log(i);
+    //  }
+
+     //B:
+    //  let i = prompt('Input your number');
+    //  i = Number(i);
+    //  for(x = 0; x < i;x++) {
+    //      console.log(x)
+    //  }
+
+    //C:
+
+    // let i = prompt('Input your number');
+    //     i = Number(i);
+    // for(x = 3; x < i;x++) {
+    //     console.log(x)
+    // }
+
+    //D:
+    // let c = prompt('Input your first number');
+    // let n = prompt('Input your last number');
+    // c = Number(c);
+    // n = Number(n);
+    // for(x = c; x < n; x++) {
+    //     console.log(x)
+    // }
+
+    //E:
+
+    // let c = prompt('Input your first number');
+    // let n = prompt('Input your last number');
+    //     c = Number(c);
+    //     n = Number(n);
+    // for( x = c; x < n ; x = x + 3 ) {
+    //     console.log(x)
+    // }
+            
+    //F:
+
+    // let c = prompt('Input your first number');
+    // let n = prompt('Input your second number');
+    // let s = prompt('Input your third number');
+    //     c = Number(c);
+    //     n = Number(n);
+    //     s = Number(s);
+
+    // for(x = c; x < n; x = x + s) {
+    //     console.log(x)
+    // }
+
+    //Bài 4:
+
+    // let x = prompt('Input your number');
+    //     x =Number(x);
+
+    // if ( x < 0) {
+    //     alert('So khong hop le');
+    // }
+    // else if (x === 0) {
+    //     alert(`ket qua cua ${x} la 1.`);
+    // }
+
+    // else {
+    //     let n = 1;
+    //     for(i = 1; i <= x; i++) {
+    //         n *= i
+    //     }
+    //     console.log(`ket qua cua ${x} la ${n}.`);
+    // }
+
+    // //Bai 5:
+    //  let x = prompt('Nhap so tuoi cua ban');
+    //      x = Number(x);
+    //  if ( x >= 14) {
+    //      alert('Ban du tuoi de xem content nay');
+    //  }
+    //  else if ( x < 14) {
+    //      alert('Ban khong du tuoi xem content nay');
+    //  }
+     
+    //BAI 6 : 
+    // let x = prompt('Enter a number');
+    //     x = Number(x);
+    // if (x >= 0 && x < 4 ) {
+    //     alert('Lower half of 9');
+    // }       
+    // else{
+    //     alert('Higher half of 9');
+    //     }
+
+    //BAI 7:
+    //  let x = prompt('Enter your first number');
+    //      x = Number(x);
+    //  let y = prompt('Enter your second number')
+    //      y = Number(y);
+    
+    // let c = y/2
+
+    // if (x >=0 && x < c) {
+    //     alert(`${x} is in lower half of ${y}.`);
+    // }
+
+    // else if ( x >= c && x <= y) {
+    //     alert(`${x} is in higher half of ${y}.`);
+    // }
+
+    //BAI 8:
+    // let x = prompt('Enter your number');
+    //     x = Number(x);
+    
+    // if (x % 2 == 0 ) {
+    //     alert(`${x} is an even number`);
+    // }
+
+    // else {
+    //     alert(`${x} is an odd number`);
+    // }
+
+    //BAI 9:
+    //A:
+    // for( x = 0; x < 6/2; x = x + 1) {
+
+    //     console.log('H')
+    // }
+    // for( y = 0; y < 6/2; y = y + 1) {
+    
+    //     console.log('L')
+    // }
+
+    // B:
+    // let x = prompt('Enter your number');
+    //     x = Number(x);
+    // for(let i = 0; i < x; i++) {
+    //     if( i < n/2) {
+    //         console.log('L');
+    //   }else{
+    //       console.log('H');
+    //   }
+    // }
+     
+    //C:
+    //    for( x = 0; x < 8; x++) {
+    //        if(x % 2 === 0) {
+    //            console.log('0');
+    //        }else{
+    //            console.log('1');
+    //        }
+    //    }
+    //D:
+    // let x = prompt('Enter the total number of 1s and 0s');
+    //     x = Number(x);
+    // for( i = 0; i < x; i++) {
+    //     if( i % 2 === 0) {
+    //         console.log('1');
+    //     }else{
+    //         console.log('0');
+    //     }
+    // }
+
+    //BAI 10
+
+    // let x = prompt('Your weight in KG?');
+    // let y = prompt('Your height in CM?');
+    //     x = Number(x);
+    //     y = Number(y);
+    // console.log( M = y/100);
+    // let BMI = Math.round(x/(M*M));
+    //     BMI = Number(BMI);
+    //     alert(`Your Bmi is ${BMI}`);
+
+    // if ( BMI < 16 ) {
+    //     alert('You are severely underweight');
+    // } else if ( BMI >= 16 && BMI < 18.5) {
+    //     alert('You are underweight');
+    // } else if ( BMI >= 18.5 && BMI < 25 ) {
+    //     alert('You are normal');
+    // } else if ( BMI >= 25 && BMI < 30 ) {
+    //     alert('You are overweight');
+    // } else if (BMI >= 30) {
+    //     alert ("You are Obese");
+    // }
+    
+
+
+
+
+    
+    
+    
+    
+    
+    
+</script>
+</html>
